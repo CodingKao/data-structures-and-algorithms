@@ -5,7 +5,7 @@ Write a function called `BinarySearch` which takes in 2 parameters: a sorted arr
 
 ## Whiteboard Process
 
-![White Board - array-insert-shift](./code-challenge-3.jpg)
+![White Board - BinarySearch](./code-challenge-3.jpg)
 
 ## Approach & Efficiency
 
