@@ -16,6 +16,7 @@ The time complexity of this approach is O(n), where n is the number of elements 
 The space complexity is O(1) because we are modifying the array in-place without using any additional data structures.
 
 ## Solution
+
 ```
 function insertShiftArray(array, value) {
   var currentIndex = Math.ceil(array.length / 2);
@@ -35,6 +36,7 @@ function insertShiftArray(array, value) {
   }
 }
 ```
+
 To run the code and see examples of it in action, you can follow these steps:
 
 1. Copy the provided code into a JavaScript file, for example, "array-insert-shift.js".
