@@ -83,3 +83,9 @@ From the `data-structures-and-algorithms/javascript` folder, execute the followi
 #### Live Tests
 
 Note that when you check your code into GitHub, all of your tests will automatically execute. These results should match your own, and will be found on the  **Actions** tab
+
+
+## 401 Data Structure, Code Challenges
+
+- [Code Challenge 1: Array Reverse](./array-reverse/README.md)
+- [Code Challenge 2: Array Insert Shift](./array-insert-shift/README.md)
