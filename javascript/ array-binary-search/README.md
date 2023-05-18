@@ -11,7 +11,7 @@ Write a function called `BinarySearch` which takes in 2 parameters: a sorted arr
 
 Approach: Implement the binary search algorithm by setting the low and high pointers to the start and end of the array respectively. In each iteration, calculate the middle index, compare the middle element with the search key, and update the pointers accordingly until a match is found or the search range is exhausted.
 
-Efficiency: Binary search has a time complexity of O(log n) as it efficiently narrows down the search range by half in each iteration. This makes it highly efficient for searching in sorted arrays.
+Efficiency: Binary search has a time complexity of O(log n) as it efficiently narrows down the search range by half in each iteration.
 
 ## Solution
 
