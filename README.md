@@ -18,7 +18,7 @@ To run your tests
 - run `npm test` to run all of the tests
 - run `npm test ##` to only run tests for challenge ## (i.e. 01)
 
-### 401 Data Structures, Code Challenges
+### 401 Data Structures & Code Challenges
 
 - [Code Challenge 1: Array Reverse](./javascript/array-reverse/README.md)
 - [Code Challenge 2: Array Insert Shift](./javascript/array-insert-shift/README.md)
