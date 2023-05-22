@@ -44,3 +44,10 @@
   - Will return false when searching for a value in the linked list that does not exist
   - Can properly return a collection of all the values that exist in the linked list
   - Ensure your tests are passing before you submit your solution.
+
+
+## Approach & Efficiency
+I created a Linked List class with a head property. I used a Node class to store values and a pointer to the next Node. I also created a separate linked-list-test.js to test the functionality of the Linked List class and ensure it behaves as expected.
+
+## Solution
+![Linked List Img](./linked-list-test.jpg)
