@@ -88,8 +88,9 @@ Note that when you check your code into GitHub, all of your tests will automatic
 
 ## 401 Data Structure, Code Challenges
 
-- [Code Challenge 1: Array Reverse](./array-reverse/README.md)
-- [Code Challenge 2: Array Insert Shift](./array-insert-shift/README.md)
-- [Code Challenge 2: Array Binary Search](./%20array-binary-search/README.md)
+- [Array Reverse](./array-reverse/README.md)
+- [Array Insert Shift](./array-insert-shift/README.md)
+- [Array Binary Search](./%20array-binary-search/README.md)
+- [Linked List](./linked-list/README.md)
 
 
