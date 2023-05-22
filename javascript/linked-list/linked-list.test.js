@@ -1,4 +1,5 @@
 'use strict';
+// linked-list test
 
 const LinkedList = require('./index')
 
