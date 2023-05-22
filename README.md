@@ -20,6 +20,7 @@ To run your tests
 
 ### 401 Data Structures & Code Challenges
 
-- [Code Challenge 1: Array Reverse](./javascript/array-reverse/README.md)
-- [Code Challenge 2: Array Insert Shift](./javascript/array-insert-shift/README.md)
-- [Code Challenge 3: Array Binary Search](./javascript/%20array-binary-search/README.md)
+- [Array Reverse](./javascript/array-reverse/README.md)
+- [Array Insert Shift](./javascript/array-insert-shift/README.md)
+- [Array Binary Search](./javascript/%20array-binary-search/README.md)
+- [Linked List Implementation](./javascript/linked-list/README.md)
