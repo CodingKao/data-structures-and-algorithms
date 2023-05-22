@@ -52,6 +52,7 @@ class LinkedList {
     }
   }
 
+  // the code searches for a value in a linked list and returns true if found, false otherwise.
   find(value) {
     let current = this.head;
 
