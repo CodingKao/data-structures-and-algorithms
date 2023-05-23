@@ -92,5 +92,6 @@ Note that when you check your code into GitHub, all of your tests will automatic
 - [Array Insert Shift](./array-insert-shift/README.md)
 - [Array Binary Search](./%20array-binary-search/README.md)
 - [Linked List](./linked-list/README.md)
+- [Linked List Isertation](./linked-list-insertions/README.md)
 
 
