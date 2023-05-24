@@ -94,5 +94,6 @@ Note that when you check your code into GitHub, all of your tests will automatic
 - [Linked List](./linked-list/README.md)
 - [Linked List Isertation](./linked-list-insertions/README.md)
 - [Linked List Kth](./linked-list-kth/README.md)
+- [Linked List Zip](./linked-list-zip/README.md)
 
 
