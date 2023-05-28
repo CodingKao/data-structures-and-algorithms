@@ -1,7 +1,9 @@
 # Challenge Title:  Linked List
 
 ## Challenge 05:  Linked List Implementation
-New Implementation of Singly Linked Lists
+A Linked List is a sequence of Nodes that are connected/linked to each other. The most defining feature of a Linked List is that each Node references the next Node in the link.
+
+***Implement a Singly Linked List with the following features:***
 
 **Features**
 
