@@ -97,5 +97,5 @@ Note that when you check your code into GitHub, all of your tests will automatic
 - [Linked List Zip](./linked-list-zip/README.md)
 - [Stack and Queues Implementation](./stack-and-queue/README.md)
 - [Stack and Queues Psuedo Queues](./stack-and-queue/stack-queue-pseudo/README.md)
-
+- [Stack and Queues Animal Shelter](./stack-and-queue/stack-queue-animal-shelter/README.md)
 

@@ -1,4 +1,5 @@
 # Implementation: Stacks and Queues
+
 A stack is a data structure that consists of nodes, where each node references the next node in the stack but not its previous node. The common operations on a stack include:
 
 1. Push: This operation adds a node or item to the stack. The item is placed on top of the stack, and the reference to the previous top node is updated. Pushing a node onto a stack has a time complexity of O(1) since it takes the same amount of time regardless of the number of nodes in the stack.
@@ -25,3 +26,4 @@ Both stacks and queues serve different purposes based on their principles and or
 ## Stacks and Queues Table of Contents
 - [Stack and Queues Implementation](./stack-queue-implement/README.md)
 - [Stack and Queues Pseudo Queues](./stack-queue-pseudo/README.md)
+- [Stack and Queues Animal Shelter](./stack-queue-animal-shelter/README.md)

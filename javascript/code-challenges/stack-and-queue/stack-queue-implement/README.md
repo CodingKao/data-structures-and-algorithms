@@ -1,4 +1,4 @@
-# Challenge Title:  Stack and a Queue Implementation
+# Code Challenge 10:  Stack and a Queue Implementation
 
 
 ## Features
@@ -56,7 +56,7 @@ You have access to the Node class and all the properties on the Linked List clas
 ## Whiteboard Process
 Whiteboard taken from in class demo.
 
-![Stack & Queue Whiteboard](./stack-queue-whiteboard.png)
+![Stack & Queue Whiteboard](../assets/stack-queue-whiteboard.png)
 
 ## Approach & Efficiency
 For implementing the Stack and Queue using a Linked List, I created separate classes for both data structures. Each class has its respective methods for performing operations like push, pop, enqueue, dequeue, peek, and isEmpty.
@@ -68,4 +68,4 @@ To run Stack test run 'npm test stack.test' in terminal.
 
 To run Queue test run 'npm test queue.test' in terminal.
 
-![Stack & Queue Test](./stack-queue-test.png)
+![Stack & Queue Test](../assets/stack-queue-test.png)
