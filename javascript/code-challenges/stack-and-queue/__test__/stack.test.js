@@ -1,5 +1,5 @@
 'use strict';
-const { Stack } = require('../index');
+const { Stack } = require('../stack-queue-implement/index');
 
 describe('Stack Test', () => {
   it('Can successfully push onto a stack', () => {
