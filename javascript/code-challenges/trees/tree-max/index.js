@@ -16,12 +16,9 @@ class Tree {
   preOrder() {
     const results = [];
 
-    // defining helper our function
     const traverse = (node) => {
-      // base case (do the thing)
       results.push(node.value);
 
-      // left and right recursive cases
       if (node.left) {
         traverse(node.left);
       }
@@ -29,7 +26,6 @@ class Tree {
         traverse(node.right);
       }
     };
-    // START THE RECURSIVE STUFF HERE
     traverse(this.root);
     return results;
   }
@@ -65,6 +61,28 @@ class Tree {
     };
     traverse(this.root);
     return results;
+  }
+
+
+  // CODE CHALLENGE 16: Find max value
+  maxValue() {
+    const results = [];
+    if(this.root === null){
+      return -1;
+    }
+    const traverse = (node) => {
+
+      if (node.left) {
+        traverse(node.left);
+      }
+      results.push(node.value);
+      if (node.right) {
+        traverse(node.right);
+      }
+    };
+    traverse(this.root);
+    let maxValue = results.pop();
+    return maxValue;
   }
 
 }
@@ -117,7 +135,7 @@ class BinarySearchTree extends Tree {
         current = current.left;
       } else if (value > current.value) {
         current = current.right;
-      } else { // value === current.value
+      } else {
         found = true;
       }
     }
@@ -128,7 +146,6 @@ class BinarySearchTree extends Tree {
   }
 
 }
-
 
 module.exports = {
   Node,
