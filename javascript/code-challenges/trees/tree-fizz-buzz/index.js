@@ -1,0 +1,218 @@
+'use strict';
+
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
+}
+
+class Tree {
+  constructor() {
+    this.root = null;
+  }
+
+  preOrder() {
+    const results = [];
+
+    const traverse = (node) => {
+      results.push(node.value);
+
+      if (node.left) {
+        traverse(node.left);
+      }
+      if (node.right) {
+        traverse(node.right);
+      }
+    };
+    traverse(this.root);
+    return results;
+  }
+
+  inOrder() {
+    const results = [];
+
+    const traverse = (node) => {
+
+      if (node.left) {
+        traverse(node.left);
+      }
+      results.push(node.value);
+      if (node.right) {
+        traverse(node.right);
+      }
+    };
+    traverse(this.root);
+    return results;
+  }
+
+  postOrder() {
+    const results = [];
+
+    const traverse = (node) => {
+      if (node.left) {
+        traverse(node.left);
+      }
+      if (node.right) {
+        traverse(node.right);
+      }
+      results.push(node.value);
+    };
+    traverse(this.root);
+    return results;
+  }
+
+
+  // CODE CHALLENGE 16: Find max value
+  maxValue() {
+    const results = [];
+    if(this.root === null){
+      return -1;
+    }
+    const traverse = (node) => {
+
+      if (node.left) {
+        traverse(node.left);
+      }
+      results.push(node.value);
+      if (node.right) {
+        traverse(node.right);
+      }
+    };
+    traverse(this.root);
+    let maxValue = results.pop();
+    return maxValue;
+  }
+
+}
+
+class BinarySearchTree extends Tree {
+  constructor() {
+    super();
+  }
+
+  add(value) {
+    const newNode = new Node(value);
+
+    if (this.root === null) {
+      this.root = newNode;
+      return this;
+    }
+
+    const insert = (node) => {
+      if (value < node.value) {
+        if (node.left === null) {
+          node.left = newNode;
+          return this;
+        } else if (node.left !== null) {
+          return insert(node.left);
+        }
+      } else if (value > node.value) {
+        if (node.right === null) {
+          node.right = newNode;
+          return this;
+        } else if (node.right !== null) {
+          return insert(node.right);
+        }
+      } else {
+        return null;
+      }
+    };
+    insert(this.root);
+  }
+
+  containsValue(value) {
+    if (this.root === null) {
+      return false;
+    }
+
+    let current = this.root;
+    let found = false;
+
+    while (current && !found) {
+      if (value < current.value) {
+        current = current.left;
+      } else if (value > current.value) {
+        current = current.right;
+      } else {
+        found = true;
+      }
+    }
+    if (!found) {
+      return false;
+    }
+    return true;
+  }
+
+}
+
+// CODE CHALLENGE 17: Tree-Breadth First
+class TreeTraversal {
+  breadthFirst(tree) {
+    if (!tree) {
+      return [];
+    }
+
+    const result = [];
+    const queue = [tree];
+
+    while (queue.length > 0) {
+      const node = queue.shift();
+      result.push(node.value);
+
+      if (node.left) {
+        queue.push(node.left);
+      }
+      if (node.right) {
+        queue.push(node.right);
+      }
+    }
+
+    return result;
+  }
+}
+
+
+// Create a sample k-ary tree
+const rootNode = new Node(1);
+const childNode1 = new Node(3);
+const childNode2 = new Node(5);
+const childNode3 = new Node(15);
+rootNode.children.push(childNode1, childNode2, childNode3);
+
+// Function to perform FizzBuzz on a k-ary tree
+function fizzBuzzTree(tree) {
+  function getModifiedValue(value) {
+    if (value % 3 === 0 && value % 5 === 0) {
+      return 'FizzBuzz';
+    } else if (value % 3 === 0) {
+      return 'Fizz';
+    } else if (value % 5 === 0) {
+      return 'Buzz';
+    } else {
+      return String(value);
+    }
+  }
+
+  function traverse(originalNode) {
+    const newNode = new Node(getModifiedValue(originalNode.value));
+
+    for (const child of originalNode.children) {
+      newNode.children.push(traverse(child));
+    }
+
+    return newNode;
+  }
+
+  return traverse(tree);
+}
+
+module.exports = {
+  Node,
+  Tree,
+  BinarySearchTree,
+  TreeTraversal,
+  fizzBuzzTree,
+};
+
