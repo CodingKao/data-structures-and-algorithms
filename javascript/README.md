@@ -98,9 +98,11 @@ Note that when you check your code into GitHub, all of your tests will automatic
 - [Stack and Queues Implementation](./stack-and-queue/README.md)
 - [Stack and Queues Psuedo Queues](./stack-and-queue/stack-queue-pseudo/README.md)
 - [Stack and Queues Animal Shelter](./stack-and-queue/stack-queue-animal-shelter/README.md)
-
-- [Trees](./trees/README.md)
-
-
 - [Stack and Queues Brackets](./code-challenges/stack-and-queue/stack-queue-brackets/README.md)
+
+- [Trees Implementation](./code-challenges/trees/trees-implement/README.md)
+- [Trees Max](./code-challenges/trees/tree-max/README.md)
+- [Trees Breadth First](./code-challenges/trees/tree-breadth/README.md)
+
+
 
