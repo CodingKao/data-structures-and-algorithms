@@ -58,6 +58,7 @@ insert(sorted, 15):
 
 Final sorted array: [4, 8, 15, 16, 23, 42]
 
+
 ![Step by step sort](../assets/step-through.png)
 
 ## Whiteboard Process
