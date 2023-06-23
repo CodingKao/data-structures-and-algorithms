@@ -4,7 +4,7 @@ const { TestScheduler } = require('jest');
 const { Movies } = require('../movies/movies.js');
 const { sortTitle, sortYear, compareYear, compareTitle } = require('../movies/movies-sort.js');
 
-describe('Sorters', () => {
+describe('Movies Sort', () => {
   it('can sort movies by year', () => {
     const movies = sortYear(Movies);
     expect(movies.map((m) => m.title)).toEqual([

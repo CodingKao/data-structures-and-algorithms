@@ -10,13 +10,9 @@ Not required for this code challenge.
 
 
 ## Approach & Efficiency
+First, I wrote two functions to sort movies. One function sorts them by the most recent year, and the other one sorts them alphabetically by title while ignoring certain words. To test these functions, I provided sample data and checked the expected outputs.
 
-
-
-Big O Time: O(n)
-
-Big O Space: O(1)
 
 ## Solution
 
-![Movie Sort Test]()
+![Movie Sort Test](../assets/movie-sort.test.png)
