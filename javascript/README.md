@@ -103,6 +103,3 @@ Note that when you check your code into GitHub, all of your tests will automatic
 - [Trees Implementation](./code-challenges/trees/trees-implement/README.md)
 - [Trees Max](./code-challenges/trees/tree-max/README.md)
 - [Trees Breadth First](./code-challenges/trees/tree-breadth/README.md)
-
-
-
