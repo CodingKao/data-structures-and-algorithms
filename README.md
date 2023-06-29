@@ -20,6 +20,7 @@ To run your tests
 
 ### 401 Data Structures & Code Challenges
 
+
 - [Challenge 01: Array Reverse](./javascript/code-challenges/arrays/array-reverse/README.md)
 
 - [Challenge 02: Array Insert Shift](./javascript/code-challenges/arrays/array-insert-shift/README.md)
@@ -59,3 +60,23 @@ To run your tests
 - [Challenge 32: Repeat Word](./javascript/hash/hashmap-repeated/README.md)
 
 - [Challenge 33: Tree Intersection](./javascript/hash/)
+
+- [Array Reverse](./javascript//code-challenges/arrays/array-reverse/)
+- [Array Insert Shift](./javascript/code-challenges/arrays/array-insert-shift/)
+- [Array Binary Search](./javascript/code-challenges/arrays/%20array-binary-search/)
+- [Linked List](./javascript/code-challenges/linked-list/README.md)
+- [Linked List Isertation](./linked-list-insertions/README.md)
+- [Linked List Kth](./javascript/code-challenges/linked-list/README.md)
+- [Linked List Zip](./javascript/code-challenges/linked-list/README.md)
+- [Stack and Queues Implementation](./javascript/code-challenges/stack-and-queue/stack-queue-implement/README.md)
+- [Stack and Queues Psuedo Queues](./javascript/code-challenges/stack-and-queue/stack-queue-pseudo/README.md)
+- [Stack and Queues Animal Shelter](./javascript/code-challenges/stack-and-queue/stack-queue-animal-shelter/README.md)
+- [Stack and Queues Brackets](./javascript/code-challenges/stack-and-queue/stack-queue-brackets/README.md)
+
+- [Trees Implementation](./javascript/code-challenges/trees/trees-implement/README.md)
+- [Trees Max](./javascript/code-challenges/trees/tree-max/README.md)
+- [Trees Breadth First](./javascript/code-challenges/trees/tree-breadth/README.md)
+- [Trees Fizz Buzz](./javascript/code-challenges/trees/tree-fizz-buzz/README.md)
+
+
+
